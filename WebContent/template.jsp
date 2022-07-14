@@ -5,6 +5,9 @@
 	if(pagefile == null){
 		pagefile = "newitem";
 	}
+	
+
+	
 %>
 <!DOCTYPE html>
 <html>
@@ -24,7 +27,10 @@
 			<td width="15%">
 				<jsp:include page="left.jsp"></jsp:include>
 			</td> 
-			<td><jsp:include page='<%=pagefile + ".jsp"%>'></jsp:include></td>
+			<td>
+				<jsp:include page='<%=pagefile + ".jsp"%>'></jsp:include>
+				
+			</td>
 		</tr>
 		<tr>
 			<td height="40" colspan=2>
